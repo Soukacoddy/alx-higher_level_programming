@@ -4,7 +4,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 4:
-        print("Usage: ./100_my_calculator.py <a> <operator> <b>")
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
     a = int(sys.argv[1])
@@ -15,9 +15,9 @@ if __name__ == "__main__":
     elif op == '-':
         print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
     elif op == '*':
-        print("{:d} * {:d} = {:d}".format(a, b, div(a, b)))
+        print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
     elif op == '/':
         print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
     else:
-        print("Unknown operator. Available operators: +, -, * and/")
+        print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
