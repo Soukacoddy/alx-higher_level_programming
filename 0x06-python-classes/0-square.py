@@ -3,5 +3,5 @@
 """Define a square class"""
 
 class Square:
-   """square class"""
-   pass
+    """square class"""
+    pass
