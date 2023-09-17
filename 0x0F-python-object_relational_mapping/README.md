@@ -1,16 +1,37 @@
-0x0F. Python - Object-relational mapping
-This repository contains the code for the "0x0F. Python - Object-relational mapping" project, which is part of the Holberton School curriculum. The project focuses on learning about Object-Relational Mapping (ORM) in Python using the SQLAlchemy library.
+# 0x0F. Python - Object-relational mapping💚
 
-Project Overview
-The "0x0F. Python - Object-relational mapping" project is designed to introduce and practice the concepts of Object-Relational Mapping and how to interact with databases using Python and SQLAlchemy.
+## Resources
+- [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)🌟
+- [mysqlclient/MySQLdb documentation](https://mysqlclient.readthedocs.io/)🌺
+- [MySQLdb tutorial](https://intranet.alxswe.com/projects/283)🌹
+- [10 common stumbling blocks for SQLAlchemy newbies](http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html)👏
+- [Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)🧑‍💻
+- [SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)🤓
+- [SQLAlchemy Tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)👀
+- [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)✌️
+- [Flask SQLAlchemy](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)🤔
+- [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)🫡
+- [Python Virtual Environments: A primer](https://realpython.com/python-virtual-environments-a-primer/)🐍
 
-The project includes several tasks that cover different aspects of working with databases, including creating tables, inserting data, querying data, updating data, and deleting data using the SQLAlchemy ORM.
+  # The most preferred site for me :heart:
+  - [tutorialspoint](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_core_connecting_to_database.htm)✌️👏🧑‍💻
+ 
+    # My Blogs :heart: 😍
+    - [Getting Started with SQLAlchemy Core for Beginners part1](https://medium.com/@noransaber685/getting-started-with-sqlalchemy-core-for-beginners-part1-73e58ae42e46)☝️😌💚
+    - [Getting Started with SQLAlchemy Core for Beginners part2](https://medium.com/@noransaber685/getting-started-with-sqlalchemy-core-for-beginners-part1-28cb26a3d013)✌️😌💚
+    - [Getting Started with SQLAlchemy Core for Beginners part3](https://medium.com/@noransaber685/getting-started-with-sqlalchemy-core-for-beginners-part2-5d8f9becad3f)👌😌💚
+    - [Getting Started with SQLAlchemy Core for Beginners part4](https://medium.com/@noransaber685/getting-started-with-sqlalchemy-core-for-beginners-244b65d56c3)🖖😌💚
+    - [Getting Started with SQLAlchemy Core for Beginners part5](https://medium.com/@noransaber685/getting-started-with-sqlalchemy-core-for-beginners-part5-cb2439ce9292)🤚😌💚
+    
 
-Project Structure
-The project is organized into multiple directories and files, each serving a specific purpose. Here's an overview of the project structure:
 
-models/: This directory contains the Python classes that define the database tables and their relationships. Each table is represented by a corresponding class.
-tests/: This directory contains the unit tests for the project. It includes test cases to ensure the functionality and correctness of the implemented ORM methods.
-main.py: This file is the entry point of the project. It includes sample code and usage examples of the implemented ORM methods.
-README.md: This file provides an overview and instructions for the project.
-Getting Started
+# Learning Objectives🧑‍💻🤓
+## General🌟
+* Why Python programming is awesome
+* How to connect to a MySQL database from a Python script
+* How to SELECT rows in a MySQL table from a Python script
+* How to INSERT rows in a MySQL table from a Python script
+* What ORM means
+* How to map a Python Class to a MySQL table
+* How to create a Python Virtual Environment
+
