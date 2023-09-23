@@ -1,26 +1,25 @@
 #!/usr/bin/python3
-"""Lists cities"""
-
+""" Lists all the states from hbtn_0e_0_usa db. """
 import MySQLdb
-from sys import argv
+import sys
 
-if __name__ == "__main__":
-    conn = MySQLdb.connect(
-        host="localhost",
-        port=3306,
-        user=argv[1],
-        passwd=argv[2],
-        db=argv[3],
-        charset="utf8",
+
+if __name__ == '__main__':
+    db = MySQLdb.connect(
+            host='localhost',
+            user=sys.argv[1],
+            passwd=sys.argv[2],
+            db=sys.argv[3],
+            port=3306
     )
-    cur = conn.cursor()
-    cur.execute(
-        """SELECT cities.name FROM cities
-        JOIN states ON cities.state_id = states.id
-        WHERE states.name = %s
-        ORDER BY cities.id ASC""",
-        (argv[4],),
-    )
-    print(", ".join(map(lambda x: x[0], cur.fetchall())))
-    cur.close()
-    conn.close()
+    cursor = db.cursor()
+    cursor.execute("SELECT cities.name FROM cities INNER JOIN\
+    states ON states.id=cities.state_id WHERE states.name=%s\
+    ", (sys.argv[4],))
+    rows = cursor.fetchall()
+    result = []
+    for row in rows:
+        result.append(row[0])
+    print(*result, sep=", ")
+    cursor.close()
+    db.close()
